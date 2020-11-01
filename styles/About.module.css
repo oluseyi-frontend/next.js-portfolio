@@ -1,0 +1,168 @@
+.my_about {
+padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.about_body{
+    margin-top: 15rem !important;
+    color: white;
+}
+.heading{
+    position: fixed;
+    top: 5rem;
+    right: 5rem;
+    color: white;
+}
+.heading a {
+    align-items: center;
+    display: flex;
+}
+.heading a img {
+    margin-right: .5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.about_banner {
+
+    width: 100%;
+    color: white;
+      background-color: black;
+}
+
+.about_left_content {
+   
+    display: flex; 
+    overflow: hidden;
+}
+
+.about_right_content {
+    display: flex;
+    width: 100%;
+      
+}
+.inner_grid2{
+
+}
+.about_right_content img {
+    width: 100%;
+  
+}
+.about_left_content_active{
+    display: flex; 
+}
+.about_left_content_text{
+    transform: translateY(120%);
+}
+
+.about_left_content_text_active{
+    transform: translateY(0%);
+    transition: all 1s ease;
+}
+
+
+.outer_grid {
+    height: 100%;
+}
+.inner_grid {
+ 
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+}
+
+.paper{
+    background-color: black !important;
+    
+}
+.paper label {
+color: white;
+align-items: center;
+display: flex;
+}
+.skill{
+padding: 1.2rem 0rem;
+
+}
+.skill img {
+    height: 35px;
+    margin-right: 1rem;
+}
+.progress {
+   
+}
+
+.my_progress{
+ 
+}
+
+
+.footer {
+    width: 100%;
+    display: flex;
+   
+}
+.my_skills{
+    margin-bottom: 5rem;
+}
+.footer_content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.to_work{
+    animation: bouncing 1.1s ease-in-out infinite;
+}
+.about_body{
+    margin-top: 2rem;
+}
+.about_body p{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+
+@keyframes bouncing {
+  0%{
+    transform: translateY(0px);
+  }
+50%{
+  transform: translateY(12px);
+}
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
+@media(max-width: 1200px){
+
+}
+@media(max-width: 992px){
+ 
+
+}
+@media(max-width: 720px){
+  
+}
+@media(max-width: 560px){
+ 
+.about_heading{
+    font-size: 5rem !important;
+}
+.heading{
+   
+    top: 2rem;
+    right: 2rem;
+    
+}
+}
+@media(max-width: 380px){
+ 
+
+.about_heading{
+    font-size: 4rem !important;
+}
+}

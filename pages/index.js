@@ -1,65 +1,54 @@
+import {useEffect, useState} from 'react'
+import { Grid, Container } from '@material-ui/core'
+import Axios from 'axios';
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const [changer, setChanger] = useState(false)
+ 
+  const handleClick = (e) => {
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    console.log(e.target)
+  setChanger(!changer)
 }
+
+  return (
+    <div onClick={handleClick} className={styles.home}>
+      <Container className={styles.my_container}>
+        <div className={styles.left_content}>
+          <div className={changer ? styles.hello_active : styles.hello}>
+            <h1>Hello.</h1>
+            <div className={changer ? styles.about_active : styles.about}>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </div>
+          </div>
+          <div className={changer ? styles.hello_active : styles.hello}>
+            <h1 style={{ color: "red" }}>i am</h1>
+            <div className={changer ? styles.about_active : styles.about}>
+              <Link href="/works">
+                <a>Works</a>
+              </Link>
+            </div>
+          </div>
+          <div className={changer ? styles.hello_active : styles.hello}>
+            <h1 style={{ color: "red" }}>Kayode</h1>
+            <div className={changer ? styles.about_active : styles.about}>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.tap}>
+            <p onClick={handleClick}>Tap anywhere</p>
+          </div>
+        </div>
+      </Container>
+    </div>
+  );
+}
+
+
