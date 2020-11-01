@@ -17,6 +17,7 @@ padding: 10rem 0;
 .heading a {
     align-items: center;
     display: flex;
+    font-weight: bold;
 }
 .heading a img {
     margin-right: .5rem;

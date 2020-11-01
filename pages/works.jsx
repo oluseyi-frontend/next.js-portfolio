@@ -45,7 +45,7 @@ const Works = () => {
       name: "A web dev portfolio",
       id: 5,
       info: "A web dev portfolo built with Next.js to implement server side rendering thereby attaining SEO friendly web apps",
-      url: "https://kayportfolio.netlify.app/",
+      url: "https://kay-portfolio.vercel.app/",
     },
   ]);
   return (

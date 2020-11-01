@@ -28,6 +28,7 @@
 .heading a {
     align-items: center;
     display: flex;
+     font-weight: bold;
 }
 .heading a img {
     margin-right: .5rem;

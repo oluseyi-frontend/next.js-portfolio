@@ -62,14 +62,21 @@ const About = () => {
           <div className={styles.about_me_text}>
             <Typography variant='h3'>About</Typography>
               <Typography variant="body2" className={styles.info}  component="p">
-             My name is  <strong>Olukayode Oluseyi </strong>, a Graduate 
-              of the Federal University of Technology, Minna, Nigeria. 
-              My state of origin being Osun State, i reside in 
-              Ibadan, Oyo state. i am a self taught developer.
+              My name is  <strong>Olukayode Oluseyi </strong>, a self taught fullstack developer.
+              using the latest tech on the market right now to build SEO friendly websites.
+              </Typography>
+             <Typography variant="body2" className={styles.info}  component="p">
+                Fueled by high energy levels and boundless enthusiasm, 
+                I’m easily inspired and more then willing to follow my 
+                fascinations wherever they take me. I’m passionate, 
+                expressive, multi-talented spirit with a natural 
+                ability to entertain and inspire. I’m never s
+                atisfied to just come up with ideas. Instead
+                I have an almost impulsive need to act on them.
               </Typography>
               <Typography variant="body2" className={styles.info}  component="p">
-            My skills are above average and I will be more than 
-              capable to assist your company by bringing real life implementation 
+              I will be more than capable to assist your company/individual
+              by bringing real life implementation 
               experience in API based integration, Visual layout development 
               and UI design implementations. I believe with my skills I should 
               be able to exploit, take advantage and
@@ -77,8 +84,12 @@ const About = () => {
               </Typography>
            
               <Typography variant="body2" className={styles.info}  component="p">
-            My core includes, but are not limitd to:Identifying design flaws in software, and providing 
-                solutions to better improve them, Ability to work and deliver on time, Implementing and integrating required services to projects
+              My core includes, but are not limitd to:
+              Identifying design flaws in software, and 
+              providing 
+              solutions to better improve them, Ability to 
+              work and deliver on time, Implementing and 
+              integrating required services to projects
               </Typography>
 
           </div>
