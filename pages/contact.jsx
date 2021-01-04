@@ -66,7 +66,7 @@ const Contact = () => {
             <a href="https://t.me/kay2425">Telegram</a>
                <a href="https://www.facebook.com/alawiye.kayode">Facebook</a>
             <a href="https://www.twitter.com/_oluseyi__">Twitter</a>
-            <a href="https://api.whatsapp.com/send?phone=8114426271">Whatsapp</a>
+            <a href="https://api.whatsapp.com/send?phone=+2348114426271">Whatsapp</a>
                   </div>
               </div>
           </Container>
