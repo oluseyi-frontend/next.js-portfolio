@@ -8,7 +8,10 @@ import kayEcommerce from "./../images/kay-ecommerce.jpg";
 import damtimApi from "./../images/damtim-bakery-restful-api.jpg";
 import myPortfolio from "./../images/my-portfolio.jpg";
 import fredac from "./../images/fredac.jpg";
+import yourrider from './../images/yourrider.jpg'
 import mypic from './../public/mypicture.jpg'
+import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 const Works = () => {
   const [myworks, setmyWorks] = useState([
     {
@@ -34,11 +37,18 @@ const Works = () => {
       url: "https://kay-store.netlify.app/",
     },
     {
+      image: yourrider,
+      name: "Your-Rider",
+      id: 6,
+      info: " A web app built with Next.js to enable high quality SEO",
+      url: "https://your-rider.vercel.app/",
+    },
+    {
       image: damtimApi,
       name: "Damtim-Api",
       id: 4,
       info: "A restful API implementing backend services like, validation using JOI, authentication using json web token, Email services, backend payment services, project was built with MongoDB, Express, React, and Node",
-      url: "https://damtim-api.herokuapp.com/damtim/api/cakes",
+      url: " https://damtim-api.herokuapp.com/damtim/api/cakes",
     },
     {
       image: myPortfolio,
@@ -49,16 +59,21 @@ const Works = () => {
     },
   ]);
   return (
-      <div className={styles.works}>
-           <div className={styles.heading}>
-                    <Link href="/">
+    <div className={styles.works}>
+      <div className={styles.heading}>
+        <Link href="/">
           <a>
             <img src={mypic} alt="" />
-                            Kayode
-                        </a>
-                    </Link>
-                </div>
+            Kayode
+          </a>
+        </Link>
+      </div>
       <Container maxWidth="sm">
+        <div className={styles.work_heading}>
+          <Typography variant="h4" gutterBottom>
+Past Projects
+          </Typography>
+        </div>
         {myworks.map((mywork) => {
           return (
             <Card key={mywork.id} className={styles.my_card}>
@@ -67,17 +82,17 @@ const Works = () => {
                   className={styles.title}
                   color="textSecondary"
                   gutterBottom
-                      >
-              
+                >
+
                   {mywork.name}
                 </Typography>
                 <img src={mywork.image} alt="" />
-                <Typography variant="body2" className={styles.info}  component="p">
+                <Typography variant="body2" className={styles.info} component="p">
                   {mywork.info}
                 </Typography>
               </CardContent>
               <CardActions>
-                <a href={mywork.url}>
+                <a href={mywork.url} target='_blank'>
                   <Button size="small">Visit page</Button>
                 </a>
               </CardActions>
@@ -86,17 +101,21 @@ const Works = () => {
         })}
       </Container>
       <div className={styles.footer}>
-                  <Container maxWidth="md">     
-                      <div className={styles.footer_content}>
-                         <Link href="/about">
-                        <a className={styles.to_work}>To About</a>
-                        </Link>
+        <Container maxWidth="md">
+          <div className={styles.footer_content}>
+            <Link href="/about">
+              <a className={styles.to_work}>
+                <ArrowBackIosIcon/>
+              </a>
+            </Link>
             <Link href="/contact">
-                        <a className={styles.to_work}>To Contact</a>
-                        </Link>
-                      </div>                    
-                   </Container>                
-                </div>
+              <a className={styles.to_work}>
+                <DoubleArrowIcon/>
+              </a>
+            </Link>
+          </div>
+        </Container>
+      </div>
     </div>
   );
 };

@@ -20,6 +20,14 @@
     height: 40px;
     border-radius: 50%;
 }
+.work_heading{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.work_heading{
+color: white;
+}
 .my_card{
 background-color: black !important;
 color: white !important;
