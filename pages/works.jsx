@@ -7,6 +7,8 @@ import adminEcommerce from "./../images/admin-ecommerce.jpg";
 import kayEcommerce from "./../images/kay-ecommerce.jpg";
 import damtimApi from "./../images/damtim-bakery-restful-api.jpg";
 import myPortfolio from "./../images/my-portfolio.jpg";
+import datagen from './../images/datagen.png'
+import babyLTC from './../images/babyltc.jpeg'
 import fredac from "./../images/fredac.jpg";
 import yourrider from './../images/yourrider.jpg'
 import mypic from './../public/mypicture.jpg'
@@ -15,24 +17,37 @@ import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 const Works = () => {
   const [myworks, setmyWorks] = useState([
     {
+      image: datagen,
+      name: "DATAGEN PROJECT",
+      id: 1,
+      info: "A crypto project that aims to bring an Upgrade to blockchain revolution",
+      url: "https://b-datagray.com/",
+    },
+    {
       image: kayExchange,
       name: "Crypto exchange platform",
-      id: 1,
+      id: 2,
       info: "A crypto exchange platform built with react and Google's Firebase",
       url: "https://kay-xchange.netlify.app/",
     },
-
+    {
+      image: babyLTC,
+      name: "Baby Litecoin",
+      id: 3,
+      info: "Baby Litecoin is a revolutionary, unique, game changing token built on the Binance Smart Chain, we are cornering the rewards system market by being the first and only token in the space that offers rewards in the form of LITECOIN, simply for holding $bLTC.",
+      url: "https://baby-ltc.netlify.app/",
+    },
     {
       image: adminEcommerce,
       name: "Ecommerce admin page dashboard",
-      id: 2,
+      id: 4,
       info: "An Ecommerce admin dashboard, built with React and Google's Firebase",
       url: "https://kay-store-admin-dashboard.netlify.app/",
     },
     {
       image: kayEcommerce,
       name: "Ecommerce platform",
-      id: 3,
+      id: 5,
       info: "A full E-commerce platform, with Paystack enabled payment system, built with React and Google's Firebase",
       url: "https://kay-store.netlify.app/",
     },
@@ -46,14 +61,14 @@ const Works = () => {
     {
       image: damtimApi,
       name: "Damtim-Api",
-      id: 4,
+      id: 7,
       info: "A restful API implementing backend services like, validation using JOI, authentication using json web token, Email services, backend payment services, project was built with MongoDB, Express, React, and Node",
       url: " https://damtim-api.herokuapp.com/damtim/api/cakes",
     },
     {
       image: myPortfolio,
       name: "A web dev portfolio",
-      id: 5,
+      id: 8,
       info: "A web dev portfolo built with Next.js to implement server side rendering thereby attaining SEO friendly web apps",
       url: "https://kay-portfolio.vercel.app/",
     },

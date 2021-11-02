@@ -18,8 +18,8 @@ import react from "./../public/icons8-react.svg";
 import mypic from './../public/mypicture.jpg'
 import nextImg from './../public/nextimg.svg'
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
-
-
+import solidity from './../public/solidity.svg'
+import web3 from './../public/web3.png'
 
 const About = () => {
   const [decider, setDecider] = useState(false);
@@ -148,7 +148,14 @@ const About = () => {
                    
                   </Grid>
                   <Grid className={styles.my_grid} item xs={4} sm={3}>
-                    <img src={graphql} alt="" />
+                   <div className={styles.solidity}>
+                   <img src={solidity} alt="" />
+                   </div>
+                 
+                 
+                  </Grid>
+                  <Grid className={styles.my_grid} item xs={4} sm={3}>
+                    <Typography>Web3</Typography>
                  
                   </Grid>
                   <Grid className={styles.my_grid} item xs={4} sm={3}>

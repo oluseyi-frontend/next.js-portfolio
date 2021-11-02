@@ -35,8 +35,7 @@ margin: 5rem 0;
 transition: all .5s ease !important;
 }
 .my_card:hover{
-    padding-left: 2rem;
-    transition: all 1s ease;
+  
 }
 
 

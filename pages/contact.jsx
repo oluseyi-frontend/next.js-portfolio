@@ -3,7 +3,7 @@ import { Container, Typography, Grid } from "@material-ui/core";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import mypic from './../public/mypicture.jpg'
-
+import github from './../images/github.svg'
 import fb from './../images/icons8-facebook (1).svg'
 import twitter from './../images/icons8-twitter (1).svg'
 import linkedin from './../images/icons8-linkedin (2).svg'
@@ -82,6 +82,11 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/olukayode-oluseyi-070711215/" target='_blank'>   <img src={linkedin} alt="" /></a>
 
               </Grid>
+              <Grid className={styles.my_grid} item xs={4} sm={3}>
+
+<a href="https://github.com/oluseyi-frontend?tab=repositories" target='_blank'>   <img src={github} alt="" /></a>
+
+</Grid>
               <Grid className={styles.my_grid} item xs={4} sm={3}>
 
                 <a href="https://t.me/kay2425" target='_blank'> <img src={tele} alt="" /></a>

@@ -92,6 +92,15 @@ display: flex;
  
  
 }
+.solidity {
+
+}
+
+.solidity img {
+   background-color: white !important;
+   border-radius: 50%;
+   
+}
 .progress {
    
 }

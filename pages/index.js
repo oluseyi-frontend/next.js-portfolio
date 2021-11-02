@@ -10,7 +10,6 @@ const [changer, setChanger] = useState(false)
  
   const handleClick = (e) => {
 
-    console.log(e.target)
   setChanger(!changer)
 }
 
