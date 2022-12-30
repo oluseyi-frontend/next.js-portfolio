@@ -2,8 +2,6 @@ import styles from "./../styles/About.module.css";
 import Link from "next/link";
 import { Container, Paper, LinearProgress, Typography, Grid } from "@material-ui/core";
 import { useState, useEffect } from "react";
-
-
 import bootstrap from "./../public/icons8-bootstrap.svg";
 import css3 from "./../public/icons8-css3.svg";
 import html from "./../public/icons8-html-5.svg";
