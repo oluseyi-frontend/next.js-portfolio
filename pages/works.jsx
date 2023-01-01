@@ -10,6 +10,8 @@ import myPortfolio from "./../images/my-portfolio.jpg";
 import datagen from './../images/datagen.png'
 import babyLTC from './../images/babyltc.jpeg'
 import fredac from "./../images/fredac.jpg";
+import dianox_landing from './../images/dianox-landing.jpg'
+import dianox_main from './../images/main-dianox.jpg'
 import yourrider from './../images/yourrider.jpg'
 import mypic from './../public/mypicture.jpg'
 import DoubleArrowIcon from '@material-ui/icons/DoubleArrow';
@@ -23,6 +25,21 @@ const Works = () => {
       info: "A crypto project that aims to bring an Upgrade to blockchain revolution",
       url: "https://b-datagray.com/",
     },
+    {
+      image: dianox_landing,
+      name: "Dianox",
+      id: 9,
+      info: "Landing page for a medical tech product that uses the latest advances in deep biotechnology to push the boundaries of healthcare.",
+      url: "https://www.dianox.com/",
+    },
+    {
+      image: dianox_main,
+      name: "Dianox main",
+      id: 10,
+      info: "E commerce platform built with Next.js for the main Dianox product (Tell) ",
+      url: "https://www.ordertell.com/en",
+    },
+    
     {
       image: kayExchange,
       name: "Crypto exchange platform",
