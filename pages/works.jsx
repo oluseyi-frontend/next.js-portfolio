@@ -47,6 +47,36 @@ const Works = () => {
       info: "A crypto exchange platform built with react and Google's Firebase",
       url: "https://kay-xchange.netlify.app/",
     },
+   
+    // {
+    //   image: adminEcommerce,
+    //   name: "Ecommerce admin page dashboard",
+    //   id: 4,
+    //   info: "An Ecommerce admin dashboard, built with React and Google's Firebase",
+    //   url: "https://kay-store-admin-dashboard.netlify.app/",
+    // },
+   
+    {
+      image: yourrider,
+      name: "Your-Rider",
+      id: 6,
+      info: " A web app built with Next.js to enable high quality SEO",
+      url: "https://your-rider.vercel.app/",
+    },
+    // {
+    //   image: damtimApi,
+    //   name: "Damtim-Api",
+    //   id: 7,
+    //   info: "A restful API implementing backend services like, validation using JOI, authentication using json web token, Email services, backend payment services, project was built with MongoDB, Express, React, and Node",
+    //   url: " https://damtim-api.herokuapp.com/damtim/api/cakes",
+    // },
+    {
+      image: myPortfolio,
+      name: "A web dev portfolio",
+      id: 8,
+      info: "A web dev portfolo built with Next.js to implement server side rendering thereby attaining SEO friendly web apps",
+      url: "https://kay-portfolio.vercel.app/",
+    },
     {
       image: babyLTC,
       name: "Baby Litecoin",
@@ -55,39 +85,11 @@ const Works = () => {
       url: "https://baby-ltc.netlify.app/",
     },
     {
-      image: adminEcommerce,
-      name: "Ecommerce admin page dashboard",
-      id: 4,
-      info: "An Ecommerce admin dashboard, built with React and Google's Firebase",
-      url: "https://kay-store-admin-dashboard.netlify.app/",
-    },
-    {
       image: kayEcommerce,
       name: "Ecommerce platform",
       id: 5,
       info: "A full E-commerce platform, with Paystack enabled payment system, built with React and Google's Firebase",
       url: "https://kay-store.netlify.app/",
-    },
-    {
-      image: yourrider,
-      name: "Your-Rider",
-      id: 6,
-      info: " A web app built with Next.js to enable high quality SEO",
-      url: "https://your-rider.vercel.app/",
-    },
-    {
-      image: damtimApi,
-      name: "Damtim-Api",
-      id: 7,
-      info: "A restful API implementing backend services like, validation using JOI, authentication using json web token, Email services, backend payment services, project was built with MongoDB, Express, React, and Node",
-      url: " https://damtim-api.herokuapp.com/damtim/api/cakes",
-    },
-    {
-      image: myPortfolio,
-      name: "A web dev portfolio",
-      id: 8,
-      info: "A web dev portfolo built with Next.js to implement server side rendering thereby attaining SEO friendly web apps",
-      url: "https://kay-portfolio.vercel.app/",
     },
   ]);
   return (
