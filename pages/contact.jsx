@@ -114,7 +114,7 @@ const Contact = () => {
               </Grid>
               <Grid className={styles.my_grid} item xs={4} sm={3}>
                 <a
-                  href="https://api.whatsapp.com/send?phone=+2348114426271"
+                  href="https://wa.me/+2348114426271"
                   target="_blank"
                 >
                   {" "}
