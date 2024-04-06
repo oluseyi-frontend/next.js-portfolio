@@ -63,7 +63,7 @@
 .inner_grid {
   align-items: center !important;
   display: flex;
-  justify-content: center;
+
 }
 
 .paper {
@@ -75,10 +75,11 @@
   display: flex;
 }
 .skill {
+  
 }
 .skill img {
   height: 50px;
-  width: 100%;
+  width:50px;
 }
 .solidity {
 }
@@ -98,11 +99,11 @@
   display: flex;
 }
 .my_skills {
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 
 .my_skills h4 {
@@ -111,8 +112,9 @@
 .my_grid {
   display: flex !important;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+ justify-content: unset;
+ align-items: unset;
 }
 
 .my_grid p {
@@ -136,6 +138,10 @@
   font-size: 1.2rem;
 }
 
+.about_me_text{
+  width: 80%;
+}
+
 @keyframes bouncing {
   0% {
     transform: translateY(0px);
@@ -151,6 +157,9 @@
 @media (max-width: 1200px) {
 }
 @media (max-width: 992px) {
+  .about_me_text{
+    width: 100%;
+  }
 }
 @media (max-width: 720px) {
 }

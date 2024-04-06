@@ -47,8 +47,9 @@ const Contact = () => {
           </div>
         </div>
       </Container>
-      <Container maxWidth="sm">
+      <Container >
         <div className={styles.contact_body}>
+          <div className={styles.contact_body_text}>
           <Typography variant="h4">Contact</Typography>
           <Typography variant="body2" className={styles.info} component="p">
             I'm seeking out opportunities to collaborate with companies /
@@ -65,8 +66,10 @@ const Contact = () => {
           <Typography variant="body2" className={styles.info} component="p">
             Feel free to reach out through any platforms below:
           </Typography>
+          </div>
+        
           <div className={styles.contact_links}>
-            <Grid container spacing={3}>
+            <Grid container spacing={0}>
               <Grid className={styles.my_grid} item xs={4} sm={3}>
                 <a href="mailto: alawiyeolukayode@gmail.com" target="_blank">
                   {" "}
@@ -125,7 +128,7 @@ const Contact = () => {
           </div>
         </div>
       </Container>
-      <Container maxWidth="md">
+      <Container>
         <div className={styles.footer_content}>
           <Link href="/works">
             <a className={styles.to_work}>

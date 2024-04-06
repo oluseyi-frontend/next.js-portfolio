@@ -66,12 +66,12 @@ const About = () => {
         </div>
       </Container>
       <div className={styles.about_body}>
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
           <div className={styles.about_me_text}>
             <Typography variant="h4">About</Typography>
             <Typography variant="body2" className={styles.info} component="p">
-              My name is <strong>Olukayode Oluseyi </strong>, a self taught
-              fullstack developer. using the latest tech on the market right now
+              My name is <strong>Kayode</strong>, a
+              mobile and web developer. using the latest tech on the market right now
               to build SEO friendly websites.
             </Typography>
             <Typography variant="body2" className={styles.info} component="p">
@@ -103,7 +103,7 @@ const About = () => {
             <Typography variant="h4">Skills</Typography>
 
             <div className={styles.skill}>
-              <Grid container spacing={3}>
+              <Grid container spacing={2} >
                 <Grid className={styles.my_grid} item xs={4} sm={3}>
                   <img src={html} alt="" />
                   <Typography>HTML</Typography>
